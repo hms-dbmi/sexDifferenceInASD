@@ -12,6 +12,7 @@ library( "SqlServerJtds" )
 library( "SqlTools" )
 library( "FactToCube" )
 library( "UpSetR" )
+library( "rentrez" )
 ```
 ## Authorizations
 - To have access to the Aetna database, approval is required. 
@@ -25,6 +26,8 @@ The jupyter notebook 2.ComorbidityAnalysis comprises the code to perform the com
 The jupyter notebook 3.CompareThreeGroupsResults comprises the R code to compare the results from the different groups under study and the automatic detection of the phenotypes statistically significant for ASD females. This can be applied to both, Aetna and BCH previous results. 
 
 The jupyter notebook 4.resultsByAgeGroup VisualRepresentation comprises the R code to visualize in an UpSetR graphic the comparison of the statistically significant results in the different age groups under study. This can be applied to both, Aetna and BCH previous results. 
+
+The jupyter notebook 5.PubMedCheckForPhecode comprises the R and SQL code to map the PheCodes to MESH terms, generate the UMLS queries and the subsequent PubMed queries to extract the number of previous publications in the field. 
 
 The jupyter notebook BCHreplicationCode comprises the R coded used to validate the results in BCH database. 
 
