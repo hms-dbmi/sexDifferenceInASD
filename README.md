@@ -29,7 +29,7 @@ The jupyter notebook 4.resultsByAgeGroup VisualRepresentation comprises the R co
 
 The jupyter notebook 5.PubMedCheckForPhecode comprises the R and SQL code to map the PheCodes to MESH terms, generate the UMLS queries and the subsequent PubMed queries to extract the number of previous publications in the field. 
 
-The jupyter notebook BCHreplicationCode comprises the R coded used to validate the results in BCH database. 
+The jupyter notebook 6.ReplicationOfTheAnalysisInEHRdataset_dataSelectionAndComorbidityAnalysis comprises the R coded used to validate the results in BCH database. 
 
 ## Publication
 This code supports the analysis presented in: "Sex differences in Autism Spectrum Disorder, a Comorbidity Pattern Analysis in National Scale Data" (publication to come).
