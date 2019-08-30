@@ -1,5 +1,5 @@
 # Sex difference in autism spectrum disorder (ASD)
-Jupyter Notebook for conducting comorbidity analysis for ASD patients on Aetna claims database and replication in Boston Children Hospital (BCH) database. 
+Jupyter Notebook for conducting comorbidity analysis for ASD patients on a claim database and replication in an independent electronic health record database. 
 
 ## Prerequisites
 The following libraries must be installed: 
@@ -15,17 +15,17 @@ library( "UpSetR" )
 library( "rentrez" )
 ```
 ## Authorizations
-- To have access to the Aetna database, approval is required. 
-- To have access to the BCH data, IRB approval is required.
+- To have access to the claim database, approval is required. 
+- To have access to the electronic health record database, IRB approval is required.
 
 ## How to
-The jupyter notebook 1.DataSelection comprises all the code used for the selection of data from patients in Aetna claims database. It comprises the SQL code queries. 
+The jupyter notebook 1.DataSelection comprises all the code used for the selection of data from patients in the claims database. It comprises the SQL code queries. 
 
-The jupyter notebook 2.ComorbidityAnalysis comprises the code to perform the comorbidity analysis in Aetna claims database, specifically, in one of the cases studied, ASD females vs ASD males. SQL code to retrieve the patient counts for the different PheCodes and the subsequent R code for statistical analysis. 
+The jupyter notebook 2.ComorbidityAnalysis comprises the code to perform the comorbidity analysis in the claims database, specifically, in one of the cases studied, ASD females vs ASD males. SQL code to retrieve the patient counts for the different PheCodes and the subsequent R code for statistical analysis. 
 
-The jupyter notebook 3.CompareThreeGroupsResults comprises the R code to compare the results from the different groups under study and the automatic detection of the phenotypes statistically significant for ASD females. This can be applied to both, Aetna and BCH previous results. 
+The jupyter notebook 3.CompareThreeGroupsResults comprises the R code to compare the results from the different groups under study and the automatic detection of the phenotypes statistically significant for ASD females. This can be applied to both previous results. 
 
-The jupyter notebook 4.resultsByAgeGroup VisualRepresentation comprises the R code to visualize in an UpSetR graphic the comparison of the statistically significant results in the different age groups under study. This can be applied to both, Aetna and BCH previous results. 
+The jupyter notebook 4.resultsByAgeGroup VisualRepresentation comprises the R code to visualize in an UpSetR graphic the comparison of the statistically significant results in the different age groups under study. This can be applied to both, previous results. 
 
 The jupyter notebook 5.PubMedCheckForPhecode comprises the R and SQL code to map the PheCodes to MESH terms, generate the UMLS queries and the subsequent PubMed queries to extract the number of previous publications in the field. 
 
