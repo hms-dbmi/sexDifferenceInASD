@@ -32,7 +32,10 @@ The jupyter notebook 5.PubMedCheckForPhecode comprises the R and SQL code to map
 The jupyter notebook 6.ReplicationOfTheAnalysisInEHRdataset_dataSelectionAndComorbidityAnalysis comprises the R coded used to validate the results in BCH database. 
 
 ## Publication
-This code supports the analysis presented in: "Sex differences in Autism Spectrum Disorder, a Comorbidity Pattern Analysis in National Scale Data" (publication to come).
+This code supports the analysis presented in: "Multi-PheWAS intersection approach to identify sex differences across comorbidities in 59 140 pediatric patients with autism spectrum disorder" https://academic.oup.com/jamia/article/29/2/230/6354089 
+
+### Citation: 
+Gutiérrez-Sacristán, A., Sáez, C., De Niz, C., Jalali, N., DeSain, T.N., Kumar, R., Zachariasse, J.M., Fox, K.P., Palmer, N., Kohane, I. and Avillach, P., 2022. Multi-PheWAS intersection approach to identify sex differences across comorbidities in 59 140 pediatric patients with autism spectrum disorder. Journal of the American Medical Informatics Association, 29(2), pp.230-238.
 
 ## License
 Licensed under the Apache License, Version 2.0 (the "License");
